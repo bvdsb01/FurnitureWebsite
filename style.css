@@ -1,0 +1,592 @@
+.nav{
+    position: fixed;
+    background-color: purple;
+    background-image: linear-gradient(10deg,white,blue);
+    z-index: 9;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,0.15);
+    margin-bottom: 100px;
+} 
+.nav_top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.logo{
+    display: left;
+    width: 60%;
+}
+.nav_side{
+    float: right;
+    width: 40%;
+    margin-top: 50px;
+}
+.nav_side a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: cosmic,sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    text-align: center;
+}
+.nav_side a:hover{
+    text-decoration: underline;
+    color: black;
+    transition: all 1s ease;
+}
+.main{
+    background-image: url('images/3360_SL\ CR.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 670px;
+    
+}
+.main .main_content{
+    padding-top: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.main .main_content h2{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 45px;
+    font-family: cosmic,sans-serif;
+    line-height: 1;
+}
+.main .main_content h2 span{
+    color: black;
+    font-size: 20px;
+    line-height: 0.4;
+}
+.main .main_content .btn{
+    margin-top: 50px;
+}
+.main .main_content .btn a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #4A148C;
+    color: white;
+    font-family: cosmic, sans-serif;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.main .main_content .btn a:hover{
+    background-color: black;
+    color: orange;
+    border: none;
+    border-bottom: 4px solid orange;
+    transition: 0.5s;
+    }
+.product{
+    padding-bottom: 50px;
+}
+.product h2{
+    color: purple;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+}
+.product .product_container{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.product .product_container .item{
+    width: 33.3%;
+    height: auto;
+    margin: 10px;
+    border-radius: 20px;
+    padding-bottom: 20px; 
+}
+.product .product_container .item:hover{
+    box-shadow: 0px 3px 65px 0px rgba(0,0,0,0.15);
+}
+.product .product_container .item .item_img{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.product .product_container .item .item_img img{
+    width: 100%;
+    height: 250px;
+}
+.product .product_container .item .item_content{
+    text-align:center;
+}
+.product .product_container .item .item_content h3{
+    padding:10px;
+    font-size: 25px;
+    font-family: cosmic, sans-serif;
+}
+.product .product_container .item .item_content p{
+    padding:10px;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+}
+.product .product_container .item .item_content a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #4A148C;
+    color: white;
+    font-family: cosmic, sans-serif;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.product .product_container .item .item_content a:hover{
+    background-color: black;
+    color: orange;
+    border: none;
+    border-bottom: 4px solid orange;
+    transition: 0.5s;
+    }
+.product .product_btn{
+    text-align:center;
+    margin-top: 50px;
+}
+.product .product_btn a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #4A148C;
+    color: white;
+    font-family: cosmic, sans-serif;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.product .product_btn a:hover{
+    background-color: black;
+    color: orange;
+    border: none;
+    border-bottom: 4px solid orange;
+    transition: 0.5s;
+}
+.keypoint{
+    padding: 50px;
+}
+.keypoint h2{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+}
+.keypoint .key_container{
+    display:flex;
+}
+.keypoint .key_container .key_content{
+    width: 40%;
+    padding: 20px;
+    float:left ;
+}
+.keypoint .key_container .key_content li{
+   list-style: none;
+   margin: 10px;
+   margin-bottom: 20px;
+   padding: 10px;
+   border-left: 2px solid orange;
+   color: black;
+   text-align:left;
+   font-family: cosmic, sans-serif;
+   box-shadow: 0px 3px 65px 0px rgba(0,0,0,0.15);
+}
+.keypoint .key_container .key_img{
+  padding-top: 40px; 
+  width: 25%;
+  height: 50%;
+  float: right;
+  margin-left: 200px;
+}
+.keypoint .key_container .key_img img{
+    width: 100%;
+    height: 50%;
+
+}
+.testi{
+    padding: 50px;
+}
+.testi h2{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.testi .testi_container{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align:center;
+}
+#carouselExampleIndicators{
+    border-radius: 20%;
+}
+.testi .testi_container .carousel-indicators button{
+    background-color: black;
+}
+.testi .testi_container .carousel-inner .carousel-item{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(204, 200, 200);
+    border-radius: 10px;
+}
+.testi .testi_container .carousel-item .item_img{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    /*image to be in center*/
+    text-align: center;    
+}
+.testi .testi_container .carousel-item .item_img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.testi .testi_container .carousel-inner .carousel-item .item_content{
+    text-align:center;
+}
+.testi .testi_container .carousel-inner .carousel-item .item_content h3{
+    padding:10px;
+    font-size: 25px;
+    font-family: cosmic, sans-serif;
+   
+}
+.testi .testi_container .carousel-inner .carousel-item .item .item_content p{
+    padding:10px;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+}
+.testi .testi_container .carousel-control-prev-icon{
+    background-color:black;
+}
+.testi .testi_container .carousel-control-next-icon{
+    background-color:black;
+}
+.team{
+    padding: 50px;
+}
+.team h2{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.team .team_container{
+   display: flex;
+  
+}
+.team .team_container .team_video{
+    width: 50%;
+}
+.team .team_container .team_video video{
+    width: 100%;
+    border: 10px solid purple;
+    outline: none;
+}
+ .team .team_container .team_content{
+    width: 50%;
+    padding: 5px;
+   
+}
+
+.team .team_container .team_content p{
+  
+    font-size: 15px;
+    font-family: cosmic, sans-serif;
+}
+
+.feed{
+    padding: 50px;
+    background-image: url('images/bgimg.jpg');
+    /*to cover whole screen*/
+    background-size: cover;
+}
+.feed h2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.feed .feed_form{
+    text-align: center;
+
+}
+.feed .feed_form form{
+    padding: 20px;
+}
+.feed .feed_form form input{
+    width: 30%;
+    margin: 10px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+
+}
+.feed .feed_form form textarea{
+    width: 30%;
+    margin: 10px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.feed .feed_form form button{
+    width: 30%;
+    margin: 10px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+}
+.about_us{
+    padding: 150px;
+}
+.about_us h2{
+    color: orange;
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: cosmic, sans-serif;
+}
+.about_us p{
+    padding: 10px;
+    font-size: 12px;
+    font-family: cosmic, sans-serif;
+    text-align: center;
+    line-height: 25px;
+}
+.contact_container{
+    padding: 150px;
+}
+.contact_container h2{
+    color: orange;
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: cosmic, sans-serif;
+}
+.contact_container .g_map{
+    border: 5px solid red;
+}
+.contact_container .contact_content{
+    padding: 20px;
+}
+.contact_container .contact_content p{
+    padding: 10px;
+    font-size: 12px;
+    font-family: cosmic, sans-serif;
+    line-height: 25px;
+}
+footer{
+    background-color: #99A3A4;
+    padding: 50px;
+    
+}
+footer .pages{
+    text-align: center;
+    margin-bottom: 15px;
+}
+footer .pages h3{
+    color: black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+footer .pages a{
+    text-decoration: none;
+    color: purple;
+    margin: 10px;
+    font-size: 15px;
+    font-family: cosmic, sans-serif;
+}
+footer .pages a:hover{
+    color: white;
+}
+footer .doc{
+    text-align: center;
+    margin-bottom: 15px;
+}
+footer .doc h3{
+    color: black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+footer .doc a{
+    text-decoration: none;
+    color: purple;
+    margin: 10px;
+    font-size: 15px;
+    font-family: cosmic, sans-serif;
+}
+footer .doc a:hover{
+    color: white;
+}
+footer .social{
+    text-align: center;
+    margin-bottom: 15px;
+}
+footer .social h3{
+    color: black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+footer .contact{
+    text-align: center;
+}
+footer .contact h3{
+    color: black;
+    font-size: 20px;
+    font-family: cosmic, sans-serif;
+    padding: 5px;
+}
+footer .social a{
+    text-decoration: none;
+    font-size: 30px;
+    color: purple;
+    margin: 10px;
+}
+footer .social a:hover{
+    color: white;
+   
+}
+footer .contact a{
+    text-decoration: none;
+    font-size: 30px;
+    color: purple;
+    margin: 10px;
+}
+footer .contact a:hover{
+    color: white;
+   
+}
+footer p{
+    text-align: center;
+    color: black;
+}
+footer p:hover{
+    color: white;
+}
+
+/*Login/Rgister Page*/
+.html_form {
+    padding-top: 150px;
+    width:65%; 
+    margin:0 auto;
+}
+.html_form form {
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 1px 1px 16px black;
+    text-align: center;
+    border-radius: 10px;
+   
+}
+
+.html_form form h2 {
+    padding: 10px;
+    color: purple;
+    font-size: 35px;
+    font-family: verdana;
+    font-weight: bold;
+}
+
+.html_form form input {
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border-left: 3px solid orange;
+
+}
+
+.html_form form input:focus {
+    border-left: 4px solid blue;
+    border-right: 4px solid blue;
+    box-shadow: 1px 1px 8px black;
+}
+
+.html_form form input:hover {
+    border-left: 6px solid green;
+    border-right: 6px solid green;
+    box-shadow: 1px 1px 8px black;
+    padding: 20px;
+}
+
+.html_form form select {
+    width: 90%;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border-left: 3px solid orange;
+
+}
+
+.html_form form select:focus {
+    border-left: 4px solid blue;
+    border-right: 4px solid blue;
+    box-shadow: 1px 1px 8px black;
+}
+
+.html_form form select:hover {
+    border-left: 6px solid green;
+    border-right: 6px solid green;
+    box-shadow: 1px 1px 8px black;
+    padding: 20px;
+}
+
+.html_form form button {
+    margin: 10px;
+    padding: 10px;
+    color: blue;
+    background-color: orange;
+    border-radius: 5px;
+    border: none;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 12px;
+    box-shadow: 1px 1px 8px black;
+}
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 24px;
+    padding: 25px;
+   background-color: rgb(226, 223, 223);
+}
+.parallex{
+    background-image: url('images/parallex.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 560px;
+}
